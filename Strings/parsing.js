@@ -17,5 +17,5 @@ function parseAndDisplayName (name){
     // console.log(namePose);
 
 }
-parseAndDisplayName("bob steven");
+parseAndDisplayName("Ian Nduta");
 
