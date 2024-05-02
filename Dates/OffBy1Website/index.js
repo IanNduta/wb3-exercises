@@ -4,15 +4,30 @@ window.onload = init;
 
 const dataInPut = document.getElementById("dataInPut");
 const enterDate = document.getElementById("enterDate");
+const outPut = document.getElementById("outPut");
 
 function init(){
-    enterDate.click = onClickedEnterDate;
+    enterDate.onclick = onClickedEnterDate;
 }
 
 function onClickedEnterDate(){
-    let newDateInPut = new Date();
-    newDateInPut = dataInPut.value;
-    return newDateInPut;
+    //get the input
+    let thedatevalue = dataInPut.value;
+
+
+    //calculate unknowns
+    let newDate;
+    newDate = new Date(thedatevalue);
+
+
+
+    //display output
+    outPut.innerHTML = newDate.toString();
+
+
+   // let newDateInPut = new Date();
+   // 
+   // return newDateInPut;
 }
 
-console.log(newDateInPut.toString());
+//console.log(newDateInPut.toString());
