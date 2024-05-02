@@ -29,24 +29,27 @@ function getSize(parseCode){
 let code1 =  "SKSLKFOPEKFOEF:123456789-M";
 let code2 = "ASDFSADF:12344-L";
 
-let code3 = "ZZasdf:55221-S";
-let code3Supplier = getSupplier(code3);
-let code3ProductNumber = getProductNumber(code3);
-let code3size = getSize(code3);
+console.log(getSupplier(code1));
+console.log(getProductNumber(code1));
+console.log(getSize(code1));
+// let code3 = "ZZasdf:55221-S";
+// let code3Supplier = getSupplier(code3);
+// let code3ProductNumber = getProductNumber(code3);
+// let code3size = getSize(code3);
 
 
-console.log( getSupplier(code1));
-console.log( getProductNumber(code1));
-console.log( getSize(code1));
+// console.log( getSupplier(code1));
+// console.log( getProductNumber(code1));
+// console.log( getSize(code1));
 
-console.log( getProductNumber("sdfasde:554-W"));
+// console.log( getProductNumber("sdfasde:554-W"));
 
 
-console.log("---------------------")
-console.log(code3);
-console.log(code3Supplier);
-console.log(code3ProductNumber);
-console.log(code3size);
+// console.log("---------------------")
+// console.log(code3);
+// console.log(code3Supplier);
+// console.log(code3ProductNumber);
+// console.log(code3size);
 
 //getProductNumber()
 //getSize()
